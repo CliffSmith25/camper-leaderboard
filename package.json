@@ -7,12 +7,17 @@
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
+    "node-sass": "^4.5.3",
     "react-scripts": "1.0.7"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch-css": "node-sass -wo src/style src/style/sass",
+    "build-css": "node-sass -o src/style src/style/sass",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
