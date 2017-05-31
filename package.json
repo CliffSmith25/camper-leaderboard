@@ -2,6 +2,7 @@
   "name": "camper-leaderboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cliffsmith25.github.io/camper-leaderboard/",
   "dependencies": {
     "axios": "^0.16.1",
     "react": "^15.5.4",
@@ -12,6 +13,7 @@
   },
   "devDependencies": {
     "enzyme": "^2.8.2",
+    "gh-pages": "^1.0.0",
     "node-sass": "^4.5.3",
     "react-scripts": "1.0.7",
     "react-test-renderer": "^15.5.4"
